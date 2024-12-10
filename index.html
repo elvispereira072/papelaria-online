@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <video autoplay muted loop id="background-video">
+            <source src="Assets/Video.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <div class="logo">Papelaria</div>
+            <ul class="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Bem-vindo à nossa Papelaria</h1>
+            <p>Qualidade e variedade em material escolar</p>
+        </div>
+    </header>
+    <main>
+        <section class="description">
+            <h2>Descrição da Loja</h2>
+            <p>Somos uma papelaria comprometida com a qualidade e a variedade dos nossos produtos. Oferecemos material escolar, de escritório e muito mais.</p>
+        </section>
+        <section class="hours">
+            <h2>Horário de Funcionamento</h2>
+            <p>Segunda a Sexta: 8h - 18h</p>
+            <p>Sábado: 8h - 12h</p>
+        </section>
+        <section class="location">
+            <h2>Localização</h2>
+            <p>Rua das Flores, 123, Centro, Cidade - Estado</p>
+        </section>
+        <section class="products">
+            <h2>Nossos Produtos</h2>
+            <div class="product">
+                <img src="Assets/Livro.webp" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Preço: R$ 50,00 <span class="discount">R$ 40,00</span></p>
+            </div>
+            <div class="product">
+                <img src="Assets/Livro.webp" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Preço: R$ 30,00 <span class="discount">R$ 25,00</span></p>
+            </div>
+            <div class="product">
+                <img src="Assets/Livro.webp" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p>Preço: R$ 20,00 <span class="discount">R$ 15,00</span></p>
+            </div>
+        </section>
+        <section class="comments">
+            <h2>Comentários</h2>
+            <form>
+                <textarea placeholder="Deixe seu comentário aqui..."></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comment-list">
+                <div class="comment">
+                    <p>Ótima papelaria! Encontrei tudo o que precisava.</p>
+                </div>
+                <div class="comment">
+                    <p>Preços bons e atendimento excelente.</p>
+                </div>
+            </div>
+        </section>
+        <section class="awards">
+            <h2>Prêmios</h2>
+            <p>Prêmio de Melhor Papelaria 2023</p>
+            <p>Reconhecimento de Excelência em Atendimento 2022</p>
+        </section>
+        <section class="reviews">
+            <h2>Avaliações</h2>
+            <div class="review">
+                <p>★★★★★ - Excelente!</p>
+            </div>
+            <div class="review">
+                <p>★★★★☆ - Muito bom!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Papelaria. Todos os direitos reservados.</p>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=13981430940" class="whatsapp-button">
+        <img src="assets/Whats.png" alt="WhatsApp">
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
